@@ -5,8 +5,8 @@
 - Name: aquifer
 - Type: Related attribute table
 - Description: Aquifer identification for the source of water to the well, includes MBMG aquifer codes and DNRC model predictions.
-- Primary key: GlobalID
-- Parent/child role: Parent layer for all related tables.
+- Primary key: GUID
+- Parent/child role: Child table
 
 ## Columns
 
