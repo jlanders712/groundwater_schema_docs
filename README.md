@@ -1,5 +1,4 @@
-# groundwater_schema_docs
-Water Sciences Bureau groundwater database documentation.
+# Water Sciences Bureau Groundwater Database
 
 The Water Sciences Bureau’s Groundwater Section manages well and aquifer data derived from the Montana Bureau of Mines and Geology (MBMG) Groundwater Information Center (GWIC) database. The dataset includes value-added attributes such as quality control flags, elevation and topographic indices, and machine learning–based aquifer ID predictions. Data obtained from GWIC undergo a comprehensive cleaning and quality control process before publication. Data is updated frequently as new records are added to the GWIC database.
 
