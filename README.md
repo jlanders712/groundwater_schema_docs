@@ -8,6 +8,16 @@ Groundwater well data is obtained from the [MBMG GWIC database feature service](
 
 See the [ETL pipeline documentation](https://github.com/jlanders712/gwic_ETL_pipeline) for a full description of the data cleaning and quality control process.
 
+## Overview
+### Spatial Layer
+[Borehole](tables/0_borehole.md)
+
+### Related Attribute Tables
+[Aquifer](tables/1_aquifer.md)
+[Aquifer Predictions](tables/2_aquifer_predictions.md)
+[Casing](tables/4_casing.md)
+[Completion](tables/5_completion.md)
+
 ## Quality Control and Location Accuracy Flags
 Well data QC checks include missing values, invalid datatypes, out-of-range values, and location verification. A description of any failed checks are appended to the QC flag description field, and summarized in the QC flag field according to the severity of the error. Refer to the ETL pipeline documentation for a description of each QC check.
 
