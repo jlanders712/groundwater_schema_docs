@@ -13,10 +13,15 @@ See the [ETL pipeline documentation](https://github.com/jlanders712/gwic_ETL_pip
 [Borehole](tables/0_borehole.md)
 
 ### Related Attribute Tables
-[Aquifer](tables/1_aquifer.md)
-[Aquifer Predictions](tables/2_aquifer_predictions.md)
-[Casing](tables/4_casing.md)
-[Completion](tables/5_completion.md)
+- [Aquifer](tables/1_aquifer.md)
+- [Aquifer Predictions](tables/2_aquifer_predictions.md)
+- [Aquifer Predictions Summary](tables/3_aquifer_predictions_summary.md)
+- [Casing](tables/4_casing.md)
+- [Completion](tables/5_completion.md)
+- [Lithology](tables/6_lithology.md)
+- [Performance](tables/7_performance.md)
+- [Sites](tables/8_sites.md)
+- [Well Use](tables/9_well_use.md)
 
 ## Quality Control and Location Accuracy Flags
 Well data QC checks include missing values, invalid datatypes, out-of-range values, and location verification. A description of any failed checks are appended to the QC flag description field, and summarized in the QC flag field according to the severity of the error. Refer to the ETL pipeline documentation for a description of each QC check.
